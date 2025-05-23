@@ -32,7 +32,7 @@ const userSchema = new Schema(
         coverImage:{
             type:String,//cloudinary url
         },
-        watcHistory:[
+        watchHistory:[
             {
                 type:mongoose.Types.ObjectId,
                 ref:"Video"
